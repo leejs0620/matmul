@@ -27,7 +27,7 @@ import os
 # sess = tf.Session(config=config)
 # sess.run(tf.global_variables_initializer())
 configuration = tf.compat.v1.ConfigProto()
-configuration.gpu_options.allow_growth = True
+# configuration.gpu_options.allow_growth = True
 sess = tf.compat.v1.Session(config=configuration)
 sess.run(tf.global_variables_initializer())
 
